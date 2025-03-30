@@ -66,6 +66,10 @@
             <h1 class="gh-header-title is-title">{{#if @custom.header_text}}{{@custom.header_text}}{{else}}{{@site.description}}{{/if}}</h1>
         {{/match}}
 
+        {{#match headerStyle "BarbaraSilvana"}}
+            <h1 class="gh-header-title is-title">{{#if @custom.header_text}}{{@custom.header_text}}{{else}}{{@site.description}}{{/if}}</h1>
+            <h2 class="gh-header-title is-title">{{@custom.header_text_2}}</h2>
+        {{/match}}
         {{!-- Search layout --}}
         {{#match headerStyle "Search"}}
             <h1 class="gh-header-title is-title">{{#if @custom.header_text}}{{@custom.header_text}}{{else}}{{@site.description}}{{/if}}</h1>
