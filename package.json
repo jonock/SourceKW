@@ -137,6 +137,7 @@
                     "Highlight",
                     "Magazine",
                     "Search",
+                    "BarbaraSilvana",
                     "Off"
                 ],
                 "description": "Landing is recommended for all sites, Highlight & Magazine for those with more content",
@@ -147,7 +148,13 @@
                 "type": "text",
                 "group": "homepage",
                 "description": "Defaults to site description when empty",
-                "visibility": "header_style:[Landing, Search]"
+                "visibility": "header_style:[Landing, Search, BarbaraSilvana]"
+            },
+            "header_text_2": {
+                "type": "text",
+                "group": "homepage",
+                "description": "Defaults to site description when empty",
+                "visibility": "header_style:[BarbaraSilvana]"
             },
             "background_image": {
                 "type": "boolean",
