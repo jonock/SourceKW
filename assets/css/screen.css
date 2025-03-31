@@ -2299,6 +2299,7 @@ unless a heading is the very first element in the post content */
 .kg-image {
     margin-right: auto;
     margin-left: auto;
+    border-radius: 12px;
 }
 
 /* Embed */
