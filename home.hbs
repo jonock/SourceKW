@@ -3,6 +3,19 @@
 
 {{> "components/header" headerStyle=@custom.header_style}}
 
+{{!-- Startseite Content --}}
+{{#get "pages" filter="slug:startseite" as |startseite|}}
+    {{#foreach startseite}}
+        <main class="gh-main">
+            <article class="gh-article {{post_class}}">
+                <section class="gh-content gh-canvas is-body">
+                    {{content}}
+                </section>
+            </article>
+        </main>
+    {{/foreach}}
+{{/get}}
+
 {{#match @custom.header_style "!=" "Highlight"}}
     {{> "components/featured" showFeatured=@custom.show_featured_posts limit=4}}
 {{/match}}
