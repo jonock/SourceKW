@@ -1400,6 +1400,18 @@ Search                         LOGO                    Login Subscribe
     color: #000;
 }
 
+.gh-header.is-classic.has-image .gh-header-image {
+    border-radius: 12px;
+}
+
+.gh-header.is-BarbaraSilvana .gh-header-image {
+    border-radius: 12px;
+}
+
+.gh-header.is-BarbaraSilvana .gh-header-title {
+    color: #000;
+}
+
 /* 9. CTA
 /* ---------------------------------------------------------- */
 
