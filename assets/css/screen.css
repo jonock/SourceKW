@@ -1381,23 +1381,11 @@ Search                         LOGO                    Login Subscribe
     position: absolute;
     inset: 0;
     content: "";
-    opacity: 0.3;
-    background-color: var(--color-black);
     transition: opacity 1.5s ease;
 }
 
 .gh-header.is-classic.has-image .gh-header-inner {
     color: #fff;
-}
-
-.gh-header.is-classic.has-image .gh-header-image {
-    position: absolute;
-    inset: 0;
-    z-index: -1;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    border-radius: 12px;
 }
 
 .gh-header.is-classic.has-image .gh-form {
