@@ -1373,11 +1373,11 @@ Search                         LOGO                    Login Subscribe
 }
 
 .gh-header.is-classic .gh-header-title h1 {
-    font-size: calc(clamp(3rem, 1.82vw + 2.27rem, 4.6rem) * var(--factor, 1));
+    font-size: calc(clamp(3.6rem, 2.2vw + 2.7rem, 5.5rem) * var(--factor, 1)) !important;
 }
 
 .gh-header.is-classic .gh-header-title h2 {
-    font-size: calc(clamp(2.4rem, 1.45vw + 1.82rem, 3.7rem) * var(--factor, 1));
+    font-size: calc(clamp(2.8rem, 1.7vw + 2.2rem, 4.3rem) * var(--factor, 1)) !important;
 }
 
 .gh-header.is-classic.has-image {
