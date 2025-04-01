@@ -1368,16 +1368,12 @@ Search                         LOGO                    Login Subscribe
 }
 
 .gh-header.is-classic .gh-header-title {
-    font-size: calc(clamp(3rem, 1.82vw + 2.27rem, 4.6rem) * var(--factor, 1));
     line-height: 1.1;
     letter-spacing: -0.028em;
 }
 
-.gh-header.is-classic .gh-header-title h1,
-.gh-header.is-classic .gh-header-title h2 {
-    font-size: inherit;
-    line-height: inherit;
-    letter-spacing: inherit;
+.gh-header.is-classic .gh-header-title h1 {
+    font-size: calc(clamp(3rem, 1.82vw + 2.27rem, 4.6rem) * var(--factor, 1));
 }
 
 .gh-header.is-classic .gh-header-title h2 {
